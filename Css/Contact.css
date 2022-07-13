@@ -1,0 +1,334 @@
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.extra{
+	top: 85vh;
+	position: fixed;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 67em;
+	z-index: 600;
+}
+.whatsapp{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	background: #0B930E;
+	margin-left: 25px;
+	justify-content: center;
+}
+.whatsapp img{
+	margin-left: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.up{
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	float: right;
+	right: 70px;
+	text-align: center;
+	line-height: 40px;
+}
+.up a{
+	text-decoration: none;
+	color: lightgray;
+}
+.up:hover{
+	background: #333333;
+	cursor: pointer;
+}
+.wrap{
+	font-family: sans-serif;
+}
+.nav{
+	height: 130px;
+	top: 0;
+	right: 0;
+	left: 0;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	position: fixed;
+    border-bottom: 2px solid lightgray;
+    background-color: #fff;
+	z-index: 200;
+	 box-shadow: 0px 1px 20px 0px #0B2C70;
+	transition: height .5s ease;
+}
+.logo{
+	color: skyblue;
+ 	line-height: 70px;
+	margin-left: 30px;
+}
+.mm{
+	margin-top: 30px; 
+   display: none;
+   align-items:center;
+   justify-content:center; 
+ }
+ #obi{
+	background: transparent; 
+	font-size: 2.7rem;
+   color: skyblue;
+   outline: none;
+   border: none;
+ }
+.lost.active{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #222;
+    background: rgba(255, 255, 255, 0.5);
+  }
+ 
+  .lost .nav-list a{
+	color: #004A98;
+    margin: 5px;
+  }
+ .lost.active{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #222;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .lost.active .nav-list{
+    background: #fff;
+    width: 600px;
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-list{
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+	font-size: 16px;
+	line-height: 70px;
+}
+.nav-link{
+    position: relative;
+	margin-left: 30px;
+}
+
+.nav-link::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: skyblue;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s ease;
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+.nav-link a {
+	color: #273F64;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color: skyblue;
+	border-bottom: 2px solid red;
+}
+.active {
+    color: white;
+	border-bottom: 2px solid red;
+}
+.drop-down{
+	width: 230px;
+	height: 260px;
+	background: white;
+	padding: 3px;
+	display: none;
+	font-size: 13px;
+	cursor: pointer;
+	position: absolute;
+	margin-top: 2px;
+	text-align: center;
+	z-index: 300;
+}
+.drop:hover .drop-down{
+	display: block;
+	color: black;
+	border-bottom: none;
+}
+.dru{
+	color: black;
+}
+.slider{
+    height: 350px;
+    margin-top: 130px;
+    background-color: black;
+    box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+} 
+ .slide{
+	width: 100%;
+	clip-path: circle(0% at 0 50%);
+  }
+  
+.slide.active{
+	clip-path: circle(150% at 0 50%);
+	transition: 2s;
+	transition-property: clip-path;
+  }
+  
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.ContactUs{
+	display: grid;
+	grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+	margin-top: 40px;
+	margin-left: 57px;
+	margin-right: 20px;
+	color: gray;
+}
+.ContactUs h1{
+	font-size: 60px;
+	font-family: Adobe Garamond Pro Bold;
+    color: #273F64;
+}
+
+.ContactUs address{
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 27px;
+}
+.contact h1{
+    margin-top: 0;
+}
+.contact p{
+    margin-bottom: 60px;
+}
+.emo{
+	display: flex;
+	margin-top: 60px;
+}
+.emo img{
+	height: 35px;
+	width: 35px;
+	margin-left: 20px;
+}
+.contac{
+	padding-left: 10px;
+}
+.contac label{
+    margin-left: 50px;
+
+}
+.contac input{
+	height: 40px;
+	width: 530px;
+	border-radius: 2px;
+	padding-left: 15px;
+    margin-left: 50px;
+	border: 1px solid lightgray;
+	outline: none;
+}
+.contac input[placeholder]{
+	font-size: 15px;
+}
+.contac textarea{
+	height: 120px;
+	width: 530px;
+    margin-left: 50px;
+	outline: none;
+	color: gray;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+.contac button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	height: 40px;
+	width: 250px;
+	background: skyblue;
+	color: white;
+	font-size: 15px;
+	font-family: Arial Unicode MS;
+	margin-left: 45px;
+}
+.foot{
+	height: 270px;
+	margin-top: 70px;
+	background: #004A98;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding-top: 3rem;
+	color: #fff;
+	font: 15px 'Arial Narrow', Arial, sans-serif;
+}
+.foot-babe{
+	margin-left: 3rem;
+	line-height: 20px;
+}
+.foot-babe button{
+	padding: 10px;
+	background-color: transparent;
+	color: salmon;
+	font-size: 12px;
+	outline: none;
+	border: 1px solid rgb(32, 35, 38);
+	border-radius: 2px;
+}
+.foot-babe button:hover{
+	background-color: rgb(32, 35, 38);
+}
+.foot-baby ul{
+	list-style-type: circle;
+	line-height: 25px;
+	cursor: pointer;
+}
+.foot-baby li:hover{
+	margin-left: 15px;
+}
+.foot-bab{
+	margin-right: 3rem;
+	line-height: 20px;
+}
+.footer{
+	height: 40px;
+	padding-top: 15px;
+	background-color: rgb(0, 33, 73);
+}
+.left{
+	color: #fff;
+	font-size: 12px;
+	margin-left: 90px;
+}
+.right{
+	float: right;
+	font-size: 12px;
+	margin-right: 90px;
+	cursor: pointer;
+}
+.right a{
+	text-decoration: none;
+	color: salmon;
+}
+.right a:hover{
+	color: #fff;
+}

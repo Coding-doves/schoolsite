@@ -1,0 +1,229 @@
+  
+    
+    @media screen and (max-width: 768px) and (min-width: 658px){
+    
+        .extra{
+            grid-gap: 28rem;
+        }
+        .nav{
+            
+            display:flex;
+            flex-direction:column;	
+        }
+        .mm{
+            display: block;
+        }
+        #obi{
+            margin-left: 30rem;
+            }
+        .logo{
+            display:flex;
+        }
+        
+        .lost{
+            display: none;
+        }
+        header .lost .nav-list a{
+            color: #0B2C70;
+          }
+        .next{
+            height: 100rem;
+            display: grid;
+            grid-template-columns:  1fr;
+            font-size: 15px;
+        }
+        .next img{
+            height: 500px;
+            width: 500px;
+        }
+        .big{
+            width:240px;
+            height:240px;
+        }
+        .next2{
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+        }
+        #one{
+            margin-top: 0;
+        }
+        #one img{
+            width: 97.8vw;
+            height: 400px;
+        }
+        #tree{
+            display: none;
+        }
+         #tree span{
+        left: 5rem;
+        }
+        .next3{
+            height: 700px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .next4{
+            height: 250px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        .hot img{
+         margin-left: 40px;
+        } 
+        .hot{
+        font-size: 16px;
+        } 
+        .testimonials{
+            display: flex;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .dolor{
+            display: none;
+        }
+        .foot{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .foot li{
+            font-size: 13px;
+        }
+        .foot button{
+            margin-bottom: 20px;
+            margin-left: 3rem;
+        }
+       .line{
+            max-width: 40rem;  
+        } 
+        .footer span{
+            font-size: small;
+        }
+        }
+
+        @media only screen and (max-width: 657px) and (min-width: 480px){
+            .extra{
+                grid-gap: 17rem;
+            }
+            .nav{
+                display:flex;
+                flex-direction:column;	
+            }
+            .mm{
+                display: block;
+        }
+            #obi{
+            margin-left: 19rem;
+            }
+            .logo{
+                display:flex;
+            }
+            
+            .lost{
+                display: none;
+            }
+            header .lost .nav-list a{
+                color: #0B2C70;
+              }
+            .home{
+                height: 46rem;
+            }
+            .home:before{
+                height: 46rem;
+            }
+            .home .content{
+                padding-left: 80px;
+            }
+            .home .content h1{
+                font-size: 2em;
+                font-weight: 800;
+                letter-spacing: 3px;
+                line-height: 65px;
+                margin-bottom: 35px;
+              }
+              
+              .home .content h1 span{
+                font-size: 1em;
+                font-weight: 650;
+              }
+            .slider-navigation{
+                margin-top: 20px;
+            }
+            .next{
+                height: 100rem;
+                display: grid;
+                grid-template-columns:  1fr;
+                font-size: 15px;
+            }
+            .next img{
+                height: 500px;
+                width: 500px;
+            }
+            .big{
+                width:240px;
+                height:240px;
+            }
+            .next2{
+                height: 700px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 30em;
+            }
+            #one{
+                margin-top: 0;
+            }
+            #one img{
+                width: 97.8vw;
+                height: 400px;
+            }
+            #tree{
+                display: none;
+            }
+             #tree span{
+            left: 5rem;
+            }
+            .next3{
+                height: 700px;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .next4{
+                height: 250px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+            }
+            .hot img{
+             margin-left: 40px;
+            } 
+            .hot{
+            font-size: 16px;
+            } 
+            .testimonials{
+                display: flex;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .dolor{
+                display: none;
+            }
+            .foot{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .foot li{
+                font-size: 13px;
+            }
+            .foot button{
+                margin-bottom: 20px;
+                margin-left: 3rem;
+            }
+           .line{
+                max-width: 40rem;  
+            } 
+            .footer span{
+                font-size: small;
+            }
+        }

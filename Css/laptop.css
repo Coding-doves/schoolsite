@@ -1,0 +1,125 @@
+/*@media screen and (max-width: 921px)line 152*/
+
+
+
+
+@media screen and (max-width: 1100px) and (min-width: 922px){
+
+
+    .extra{
+        grid-gap: 45rem;
+    }
+    .nav-link{
+        margin-left: 20px;
+    }
+    .next{
+        height: 320px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .next img{
+        height: 250px;
+        width: 250px;
+    }
+    .next2{
+        height: 430px;
+    }
+    #one img{
+        width: 200px;
+        height: 300px;
+    }
+    #two{
+        margin-top: 0px;
+    }
+    .hot img{
+         margin-left: 80px;
+    }   
+       
+    .foot{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .foot li{
+        font-size: 13px;
+    }
+    .line{
+        max-width: 60rem;  
+    }
+    .footer span{
+        font-size: small;
+    }
+}
+
+    @media screen and (max-width: 921px) and (min-width: 769px){
+    .extra{
+        grid-gap: 36rem;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .nav-link{
+        margin-left: 15px;
+    }
+    .next{
+        min-height: 300px;
+        grid-gap:7px;
+        font-size: 12px;
+    }
+    .next img{
+       min-height: 270px;
+        width: 250px;
+    }
+    .next2{
+        min-height: 450px;
+    }
+    #one img{
+        width: 220px;
+        height: 280px;
+    	margin-top: 60px;
+}
+    .hot img{
+        margin-left: 70px;
+    }
+    .hot{
+        font-size: 16px;
+    } 
+    .hot span{
+        font-size: 23px;
+    }
+    .foot{
+        height: 30rem;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 2fr;
+        grid-gap: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tee{
+        grid-column: 1/3;
+    }
+    .vee{
+        grid-column: 3/5;
+    }
+    .ree{
+        grid-column: 5/-1;
+    }
+    .bee{
+        grid-column: 1/6;
+    }
+    .foot button{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-left: 5rem;
+    }
+    .line{
+        max-width: 50rem;  
+    }
+    .footer span{
+        font-size: small;
+    }
+
+}

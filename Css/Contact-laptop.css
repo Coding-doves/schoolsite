@@ -1,0 +1,323 @@
+
+
+@media screen and (max-width: 1150px) and (min-width: 1001px){
+    .extra{
+        grid-gap: 54em;
+    }
+    .ContactUs{
+        gap: 0;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+    .contac input{
+        width: 400px;
+    margin-left: 20px;
+}
+    .contac textarea{
+        width: 400px;
+    margin-left: 20px;
+}
+
+}
+@media screen and (max-width: 1000px) and (min-width: 922px){
+    .extra{
+        grid-gap: 47em;
+    }
+    .nav{
+            
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+}
+    #obi{
+    margin-left: 45rem;
+    }
+    .logo{
+        display:flex;
+    
+    }
+    .lost{
+        display: none;
+    }
+    .lost .nav-list a{
+        color: #0B2C70;
+      }
+    
+.ContactUs{
+    margin-left: 40px;
+    margin-right: 10px;
+    gap: 10px;
+}
+    .contac input{
+        width: 400px;
+    margin-left: 20px;
+}
+    .contac textarea{
+        width: 400px;
+    margin-left: 20px;
+}
+}
+@media screen and (max-width: 921px) and (min-width: 769px){
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none
+};
+ .nav{
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+}
+    #obi{
+    margin-left: 35rem;
+    position: relative;
+}
+    .logo{
+        display:flex;
+    }
+    .lost{
+        display: none;
+        top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+    }
+    .lost .nav-list a{
+        color: #0B2C70;
+      }
+      
+  .slider{
+        height: 350px;
+      }
+      .slider .slide{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+      }
+    .ContactUs{
+        grid-gap: 0px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right:0;
+    }
+    .ContactUs h1{
+        font-size: 50px;
+    }
+    .contac{
+        padding-left: 3px;
+    }
+    .contac label{
+        margin-left: 10px;
+    
+    }
+    .contac input{
+        height: 35px;
+        width: 350px;
+        margin-left: 10px;
+    }
+    .contac textarea{
+        width: 350px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+.contac button{
+    margin-left: 30px;
+}
+    .foot{
+        height: 300px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{
+        margin-left: 14rem;
+    }
+    .right{
+        margin-left: 20rem;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 658px){
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none;
+}
+    .nav{
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+}
+    #obi{
+    position: relative;
+    margin-left: 30rem;
+    }
+    .lost .nav-list a{
+        color: #0B2C70;
+      }
+    .logo{
+        display:flex;
+    }
+    .lost{
+        display: none;
+        top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+    }
+    .slider{
+        height: 350px;
+      }
+      .slider .slide{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+      }
+    .ContactUs{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.contac input{
+	height: 30px;
+	width: 97%;
+	padding-left: 5px;
+    margin-left: 10px;
+}
+.contac textarea{
+	height: 150px;
+	width: 97%;
+    margin-left: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.foot{
+	height: 37rem;
+	width: 97.4vw;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns:1fr;
+	padding-top: 1.5rem;
+	font: 12px;
+}
+.foot-babe{
+	margin-left: 1.5rem;
+}
+.foot-baby{
+	margin-left: 1.5rem;
+}
+.foot-bab{
+	margin-right: 1rem;
+	margin-left: 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left{
+	margin-left: 14rem;
+}
+.right{
+	margin-left: 20rem;
+}
+}
+@media screen and (max-width: 657px) and (min-width: 480px){
+
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none
+};
+    .nav{     
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+}
+    #obi{
+    margin-left: 19rem;
+    position: relative;
+}
+    .lost .nav-list a{
+        color: #0B2C70;
+      }
+    .logo{
+        display:flex;
+    }
+    .lost{
+        display: none;
+        top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+    }
+    .slider{
+        height: 350px;
+      }
+      .slider .slide{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+      }
+    .ContactUs{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.contac input{
+	height: 30px;
+	width: 97%;
+	padding-left: 5px;
+    margin-left: 10px;
+}
+.contac textarea{
+	height: 80px;
+	width: 97%;
+    margin-left: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.foot{
+	height: 40rem;
+	width: 96.5vw;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns:1fr;
+	padding-top: 1.5rem;
+	font: 12px;
+}
+.foot-babe{
+	margin-left: 1.5rem;
+}
+.foot-baby{
+	margin-left: 1.5rem;
+}
+.foot-bab{
+	margin-right: 1rem;
+	margin-left: 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left{
+	margin-left: 100px;
+}
+.right{
+	margin-left: 200px;
+}
+}

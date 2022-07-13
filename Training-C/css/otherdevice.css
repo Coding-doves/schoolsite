@@ -1,0 +1,242 @@
+
+@media screen and (max-width: 1000px) and (min-width: 922px){
+    .extra{
+        top: 88vh;
+    }
+    
+    .whatsapp{
+        margin-left: 50rem;
+    }
+    .search{
+        margin-left: 2rem;
+    }
+    .dev{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .one-third{
+        margin-left: 1.5em;
+    }
+    .img img{
+        height: 290px;
+    }
+    .down{
+        display: none;
+    }
+    footer .media-icons{
+        margin-right: 3em;
+      }
+}
+@media screen and (max-width: 921px) and (min-width: 769px){
+    .extra{
+        top: 88vh;
+    }
+    
+    .whatsapp{
+        margin-left: 45rem;
+    }
+    .nav{
+        display: flex;
+    }
+    
+    .logo{
+        color: skyblue;
+         line-height: 70px;
+        padding-left: 20px;
+    }
+    .search{
+        display: none;
+    }
+    select{
+       display: none;
+    }
+.sub{
+    font-size: 30px;
+	line-height: 40px;
+}
+    .dev{
+        display: grid;
+        grid-template-columns: 1fr;
+    	margin-top: 1rem;
+}
+.two-third{
+	margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.img{
+    width: 100%;
+}
+.img img{
+	height: 410px;
+}
+.two-third .child{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+    padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 14px;
+}
+.desc button{
+	height: 40px;
+	width: 100%;
+}
+.desc input{
+	height: 65px;
+	width: 100%;
+}
+.two-third .child2{
+    text-align: left;
+}
+.two-third .child2 input{
+    margin-bottom: 1rem;
+}
+.down{
+    display: none;
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 658px){
+    .extra{
+        top: 88vh;
+    }
+    
+    .whatsapp{
+        margin-left: 37rem;
+    }
+    .nav{
+        display: flex;
+    }
+    
+    .logo{
+        color: skyblue;
+         line-height: 70px;
+        padding-left: 20px;
+    }
+    .search{
+        display: none;
+    }
+    select{
+       display: none;
+    }
+.sub{
+    font-size: 30px;
+	line-height: 40px;
+}
+    .dev{
+        display: grid;
+        grid-template-columns: 1fr;
+    	margin-top: 1rem;
+}
+.two-third{
+	margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.img{
+    width: 100%;
+}
+.img img{
+	height: 410px;
+}
+.two-third .child{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+    padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 14px;
+}
+.desc button{
+	height: 40px;
+	width: 100%;
+}
+.desc input{
+	height: 65px;
+	width: 100%;
+}
+.two-third .child2{
+    text-align: left;
+}
+.two-third .child2 input{
+    margin-bottom: 1rem;
+}
+table.mum{
+    display: none;
+}
+.down{
+    display: none;
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+}
+@media screen and (max-width: 657px) and (min-width: 480px){
+    .extra{
+        top: 88vh;
+    }
+    
+    .whatsapp{
+        margin-left: 34rem;
+    }
+    .nav{
+        display: flex;
+    }
+    
+    .logo{
+        color: skyblue;
+         line-height: 70px;
+        padding-left: 20px;
+    }
+    .search{
+        display: none;
+    }
+    select{
+       display: none;
+    }
+.sub{
+    font-size: 30px;
+	line-height: 40px;
+}
+    .dev{
+        display: grid;
+        grid-template-columns: 1fr;
+    	margin-top: 1rem;
+}
+.two-third{
+	margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.two-third .child{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+    padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 14px;
+}
+.desc button{
+	height: 40px;
+	width: 100%;
+}
+.desc input{
+	height: 65px;
+	width: 100%;
+}
+.two-third .child2{
+    text-align: left;
+}
+.two-third .child2 input{
+    margin-bottom: 1rem;
+}
+table.mum{
+    display: none;
+}
+.down{
+    display: none;
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+}

@@ -1,0 +1,310 @@
+
+@media screen and (max-width: 1000px) and (min-width: 922px){
+    .extra{
+        grid-gap: 47em;
+    }
+    .nav{
+            
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+    }
+    #obi{
+        margin-left: 30rem;
+        position: relative;
+    }	
+    .lost .nav-list a{
+        color: #0B2C70;
+    }
+    .logo{
+        display:flex;
+    
+    }
+    .lost{
+        display: none;
+        top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+    }
+    .ContactUs{
+        grid-gap: 0px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 40px;
+        padding-right: 20px;
+        color: white;
+    }
+.ContactUs{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+    .contac input{
+        width: 300px;
+    margin-left: 20px;
+}
+    .contac textarea{
+        width: 300px;
+    margin-left: 20px;
+}
+.clear{
+	display: none;
+}
+.foot{
+    margin-top: 20rem;
+}
+}
+@media screen and (max-width: 921px) and (min-width: 769px){
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none
+};
+.nav{
+            
+    display:flex;
+    flex-direction:column;	
+}
+.mm{
+    display: block;
+}
+#obi{
+    margin-left: 30rem;
+    position: relative;
+}	
+.lost .nav-list a{
+    color: #0B2C70;
+}
+.logo{
+    display:flex;
+
+}
+.lost{
+    display: none;
+    top: 7rem;
+    left: 1px;   
+transform: scaleX(1px);
+}
+    .ContactUs{
+        grid-gap: 0px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-left: 40px;
+        padding-right: 20px;
+        color: white;
+    }
+    .ContactUs h1{
+        font-size: 50px;
+    }
+    .contact section{
+        width: 300px;
+    }
+    .contac{
+        padding-left: 3px;
+    }
+    .contac label{
+        margin-left: 10px;
+    
+    }
+    .contac input{
+        height: 35px;
+        width: 280px;
+        margin-left: 10px;
+    }
+    .contac textarea{
+        width: 280px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+.contac button{
+    margin-left: 30px;
+}
+.clear{
+	display: none;
+}
+    .foot{
+        height: 300px;
+    margin-top: 26rem;
+
+    }
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{
+        margin-left: 14rem;
+    }
+    .right{
+        margin-left: 20rem;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 658px){
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none;
+}
+    .nav{
+            
+        display:flex;
+        flex-direction:column;	
+    }
+    .mm{
+        display: block;
+    }
+    #obi{
+        margin-left: 30rem;
+        position: relative;
+    }	
+    .lost .nav-list a{
+        color: #0B2C70;
+    }
+    .logo{
+        display:flex;
+    
+    }
+    .lost{
+        display: none;
+        top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+    }
+   
+    .ContactUs{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 8rem;
+}   
+.contac input{
+	height: 30px;
+	padding-left: 5px;
+    margin-left: 10px;
+}
+.contac textarea{
+	height: 80px;
+    margin-left: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.clear{
+	display: none;
+}
+.foot{
+	height: 37rem;
+	width: 97.5vw;
+	display: grid;
+	grid-template-columns:1fr;
+	padding-top: 1.5rem;
+	font: 12px;
+    margin-top: 48rem;
+}
+.foot-babe{
+	margin-left: 1.5rem;
+}
+.foot-baby{
+	margin-left: 1.5rem;
+}
+.foot-bab{
+	margin-right: 1rem;
+	margin-left: 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left{
+	margin-left: 14rem;
+}
+.right{
+	margin-left: 20rem;
+}
+}
+@media screen and (max-width: 657px) and (min-width: 480px){
+
+    .extra{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+.up{
+    display: none
+};
+.nav{
+            
+    display:flex;
+    flex-direction:column;	
+}
+.mm{
+    display: block;
+}
+#obi{
+    margin-left: 17rem;
+    position: relative;
+}	
+.lost .nav-list a{
+    color: #0B2C70;
+}
+.logo{
+    display:flex;
+
+}
+.lost{
+    display: none;
+     top: 7rem;
+        left: 1px;   
+    transform: scaleX(1px);
+}
+    .ContactUs{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 8rem;
+        margin-bottom:3rem;
+}   
+.contac input{
+	height: 30px;
+	padding-left: 5px;
+    margin-left: 10px;
+}
+.contac textarea{
+	height: 80px;
+    margin-left: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.clear{
+	display: none;
+}
+.foot{
+	height: 40rem;
+	width: 96.5vw;
+	margin-top: 56rem;
+	display: grid;
+	grid-template-columns:1fr;
+	padding-top: 1.5rem;
+	font: 12px;
+}
+.foot-babe{
+	margin-left: 1.5rem;
+}
+.foot-baby{
+	margin-left: 1.5rem;
+}
+.foot-bab{
+	margin-right: 1rem;
+	margin-left: 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.left{
+	margin-left: 100px;
+}
+.right{
+	margin-left: 200px;
+}
+}

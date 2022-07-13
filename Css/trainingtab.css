@@ -1,0 +1,403 @@
+
+@media screen and (max-width: 1150px) and (min-width: 1001px){
+    .extra{
+        top: 89vh;
+        left: 54rem;
+    }
+    .search{
+        margin-top: 1.5rem;
+        margin-left: 18rem;
+    }
+    div.blur{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.img {
+        width: 200px;
+        height: 18em;
+    }
+    div.img img {
+        width: 100%;
+        height: 170px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 922px){
+    .extra{
+        top: 89vh;
+        left: 54rem;
+    }
+    .nav{
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+    }
+    .search{
+        margin-top: 1.5rem;
+        margin-left: 18rem;
+    }
+    select{
+        padding: 3px;
+        margin-left: 0;
+        height: 35px;
+        width: 50px;
+    }
+    input{
+        margin-left: 0;
+        height: 35px;
+        width: 22rem;
+    }
+        .info{
+            padding: 5px 10px;
+            margin-top: 12rem;
+            margin-left:15rem;
+          }
+        .img-slider .slide .info h2{
+          font-size: 25px;
+        }
+        .img-slider .slide .info p{
+          width: 90%;
+          font-size: 14px;
+        }
+        .img-slider .navigation{
+            bottom: -8rem;
+        }
+        .img-slider .navigation .btn{
+            width: 8px;
+            height: 8px;
+            margin: 7px;
+            border: 4px solid rgba(255, 255, 255, 0.5);
+          }
+          
+          .img-slider .navigation .btn.active{
+            border: 4px solid white;
+            width: 10px;
+            height: 10px;
+          }
+          .butt{
+            height: 30px;
+            width: 160px;
+            line-height: 8px;
+            animation-name: none;
+            top: 15rem;
+            margin-left: -1rem;
+        }
+    .butt span{
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    
+        .butt button{
+            padding: 5px;
+            margin: 3px;
+        }
+    .gallery .title h1{
+        font-size:30px;
+    }
+    div.blur{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+div.img {
+    width: 100%;
+    height: 30em;
+}
+
+div.img img {
+    height: 20em;
+}
+div.tag{
+    width: 45%;
+}
+.gallery .pagination{
+	margin-top: 80px;
+	transform: translateX(68%);
+
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+}
+@media screen and (max-width: 921px) and (min-width: 769px){
+   
+    .extra{
+        top: 89vh;
+        left: 42rem;
+    }
+    .nav{
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+    }
+    .search{
+        margin-top: 1.5rem;
+        margin-left: 13rem;
+    }
+    select{
+        padding: 3px;
+        margin-left: 0;
+        height: 35px;
+        width: 50px;
+    }
+    input{
+        margin-left: 0;
+        height: 35px;
+        width: 22rem;
+    }
+        .info{
+            padding: 5px 10px;
+            margin-top: 12rem;
+            margin-left:12rem;
+          }
+        .img-slider .slide .info h2{
+          font-size: 25px;
+        }
+        .img-slider .slide .info p{
+          width: 90%;
+          font-size: 14px;
+        }
+        .img-slider .navigation{
+            bottom: -8rem;
+        }
+        .img-slider .navigation .btn{
+            width: 8px;
+            height: 8px;
+            margin: 7px;
+            border: 4px solid rgba(255, 255, 255, 0.5);
+          }
+          
+          .img-slider .navigation .btn.active{
+            border: 4px solid white;
+            width: 10px;
+            height: 10px;
+          }
+          .butt{
+            height: 30px;
+            width: 160px;
+            line-height: 8px;
+            animation-name: none;
+            top: 15rem;
+            margin-left: -1rem;
+        }
+    .butt span{
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    
+        .butt button{
+            padding: 5px;
+            margin: 3px;
+        }
+    .gallery .title h1{
+        font-size:25px;
+    }
+    div.blur{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 10px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+div.img {
+    width: 100%;
+    height: 25em;
+}
+div.img img {
+    height: 17em;
+}
+div.tag{
+    width: 45%;
+}
+.gallery .pagination{
+	margin-top: 80px;
+	transform: translateX(68%);
+
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+  
+}
+
+@media screen and (max-width: 768px) and (min-width: 658px){
+    .extra{
+        top: 100vh;
+    	position: fixed;
+        left: 38rem;
+    }
+
+    select{
+       display: none;
+    }
+    input{
+        display: none;
+    }
+        .info{
+            padding: 5px 10px;
+            margin-top: 12rem;
+            margin-left:8rem;
+          }
+        .img-slider .slide .info h2{
+          font-size: 25px;
+        }
+        .img-slider .slide .info p{
+          width: 90%;
+          font-size: 11px;
+        }
+        .img-slider .navigation{
+            bottom: -8rem;
+        }
+        .img-slider .navigation .btn{
+            width: 8px;
+            height: 8px;
+            margin: 7px;
+            border: 4px solid rgba(255, 255, 255, 0.5);
+          }
+          
+          .img-slider .navigation .btn.active{
+            border: 4px solid white;
+            width: 10px;
+            height: 10px;
+          }
+          .butt{
+            height: 30px;
+            width: 160px;
+            line-height: 8px;
+            animation-name: none;
+            top: 15rem;
+            margin-left: -1rem;
+        }
+    .butt span{
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    
+        .butt button{
+            padding: 5px;
+            margin: 3px;
+        }
+    .gallery .title h1{
+        font-size:20px;
+    }
+    div.blur{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+div.img {
+    width: 100%;
+    height: 32em;
+}
+div.img img {
+    height: 22em;
+}
+div.tag{
+    width: 25%;
+}
+.gallery .pagination{
+	margin-top: 80px;
+	transform: translateX(13%);
+
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+  
+}
+
+@media screen and (max-width: 657px) and (min-width: 480px){
+
+    .extra{
+        top: 100vh;
+    	position: fixed;
+    	left: 34rem;
+}
+    select{
+       display: none;
+    }
+    input{
+        display: none;
+    }
+        .info{
+            padding: 5px 10px;
+            margin-top: 12rem;
+            margin-left:8rem;
+          }
+        .img-slider .slide .info h2{
+          font-size: 25px;
+        }
+        .img-slider .slide .info p{
+          width: 90%;
+          font-size: 11px;
+        }
+        .img-slider .navigation{
+            bottom: -8rem;
+        }
+        .img-slider .navigation .btn{
+            width: 8px;
+            height: 8px;
+            margin: 7px;
+            border: 4px solid rgba(255, 255, 255, 0.5);
+          }
+          
+          .img-slider .navigation .btn.active{
+            border: 4px solid white;
+            width: 10px;
+            height: 10px;
+          }
+          .butt{
+            height: 30px;
+            width: 160px;
+            line-height: 8px;
+            animation-name: none;
+            top: 15rem;
+            margin-left: -2rem;
+        }
+    .butt span{
+        padding-top: 12px;
+        font-size: 12px;
+    }
+    
+        .butt button{
+            padding: 5px;
+            margin: 3px;
+        }
+    .gallery .title h1{
+        font-size:20px;
+    }
+    div.blur{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+    }
+div.tag{
+    width: 25%;
+}
+div.img {
+    width: 100%;
+}
+div.img img {
+    height: 22em;
+}
+
+
+.gallery .pagination{
+	margin-top: 80px;
+	transform: translateX(13%);
+
+}
+footer .media-icons{
+	margin-right: 3em;
+  }
+  
+}

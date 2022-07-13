@@ -1,0 +1,378 @@
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.extra{
+	top: 85vh;
+	position: fixed;
+	z-index: 300;
+	left: 76rem;
+}
+
+.whatsapp{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	background: #0B930E;
+}
+
+
+.whatsapp img{
+	margin-left: 15px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.wrap{
+	font-family: sans-serif;
+}
+
+
+.nav{
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo{
+	color: skyblue;
+ 	line-height: 70px;
+	padding-left: 40px;
+}
+.search{
+    margin-top: 1.5rem;
+    margin-left: 35rem;
+}
+select{
+	padding: 3px;
+    margin-left: 0;
+    height: 35px;
+    width: 50px;
+    outline: none;
+    background-color: gray;
+    border: none;
+}
+input{
+    margin-left: 0;
+    height: 35px;
+    width: 25rem;
+    outline: none;
+    background-color: lightgray;
+    border: none;
+}
+.img-slider{
+	position: relative;
+	width: 100%;
+	height: 42rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: #2696E9;
+  }
+  
+  .img-slider .slide{
+	top: 0;
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	clip-path: circle(0% at 0 50%);
+  }
+  
+  .img-slider .slide.active{
+	clip-path: circle(150% at 0 50%);
+	transition: 2s;
+	transition-property: clip-path;
+  }
+  
+  .img-slider .slide img{
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 42rem;
+  }
+  
+  .img-slider .slide .info::after{
+	content: '';
+	display: block;
+	position: absolute;
+	background: rgba(46, 107, 176, 0.6);
+	width: 100%;
+	height: 42rem;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+  .info > *{
+	z-index: 2;
+	position: relative;
+  }
+  .img-slider .info{
+	position: relative;
+	height: 20.8rem;
+	padding: 15px 30px;
+	text-align: center;
+	color: #fff;
+  }
+
+  .img-slider .slide .info h2{
+	color: #fff;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+  }
+  
+  .img-slider .slide .info p{
+	color: #fff;
+	background: rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: green;
+  }
+  
+  .img-slider .navigation{
+	position: absolute;
+	display: flex;
+	bottom: 3.7rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 20;
+}
+  
+  .img-slider .navigation .btn{
+	background: rgba(37, 148, 233, 0.5);
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	border-radius: 50%;
+	border: 5px solid rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+  }
+  
+  .img-slider .navigation .btn.active{
+	background: #2594e9;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	border: 5px solid white;
+	width: 13px;
+	height: 13px;
+  }
+/* The element to apply the animation to */
+.butt{
+	height: 50px;
+	width: 210px;
+	border-radius: 50px;
+	border: 2.5px solid red;
+	position: absolute;
+	line-height: 50px;
+	z-index: 210;
+	cursor: pointer;
+	top: 25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+    animation-name: ada;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;    
+    animation-timing-function: ease;
+}
+
+.butt:hover{
+	background: rgb(181, 13, 13 );
+}
+
+.butt span{
+	padding-left: 20px;
+}
+
+.butt button{
+	background: red;
+	color: white;
+	border: none;
+	padding: 12px;
+	border-radius: 40px;
+	float: right;
+	margin: 5.5px;
+}
+
+.butt button:hover{
+	background: white;
+	color: red;
+}
+@keyframes ada {
+    0%   {background-color:aqua;color:#000; left:0px;}
+    25%  {background-color:rgb(254, 254, 254);color:red; left:200px;}
+    50%  {background-color:rgb(2, 45, 45); color: aliceblue; left:300px;}
+    75%  {background-color:rgb(254, 254, 254); color: grey; left:400px;}
+    100% {background-color:red; color: antiquewhite; left:0px;}
+}
+
+div.blur{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	box-sizing: border-box;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+div.tag{
+	position: absolute;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #F23E31;
+	top: 0;
+	right: 0;
+	font-size: 10px;
+	color: #fff;
+}
+div.img {
+    margin: 5px;
+    margin-top: 0.5rem;
+    border: 1px solid lightgray;
+    float: left;
+    width: 270px;
+	position: relative;
+}
+div.img img {
+    width: 100%;
+    height: 180px;
+    display: block;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-size: small;
+}
+div.desc a{
+	color:gray;
+	text-decoration: none;
+	cursor: pointer;
+}
+div.desc a span{
+	color: green;
+	font-size: 12px;
+}
+
+.gallery{
+	position: relative;
+}
+.gallery .title h1{
+	font-size:36px;
+	margin-top:30px;
+	text-align: center;
+}
+.gallery .gallery-items .item.hide{
+	display: none;
+}
+.gallery .gallery-items .item.show{
+	display: block;
+	animation: show .5s ease;
+}
+@keyframes show{
+    0%{
+    	opacity:0;
+    	transform: scale(0.9);
+    }
+    100%{
+    	opacity:1;
+    	transform: scale(1);
+    }
+}
+
+.gallery .pagination{
+	margin-top: 100px;
+	height: 60%;
+	padding:10px;
+	transform: translateX(163%);
+}
+.gallery .pagination div{
+	display: inline-block;
+	margin:0 10px;
+}
+.gallery .pagination .page{
+	color:gray;
+}
+.gallery .pagination .prev,.gallery .pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+.gallery .pagination .prev.disabled,
+.gallery .pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+.clearfix:after {
+	height: 100px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.down{
+	height: 300px;
+	background-color: #174E75;
+	padding-top: 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	color: #eee;
+}
+.down h2{
+	text-align: center;
+}
+.down table{
+	border-spacing: 10px
+}
+.down td{
+	border: 1px solid #fff;
+	padding: 15px;
+	font-size: small;
+	line-height: 19px;
+}
+.down td h3{
+	font-size: 18px;
+}
+footer{
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	font-size: small;
+	min-height: 80px;
+	line-height: 80px;
+	padding-left: 40px;
+}
+footer .media-icons{
+	z-index: 888;
+	position: absolute;
+	right: 30px;
+	display: flex;
+	flex-direction: row;
+	margin-right: 25em;
+	transition: 0.5s ease;
+  }
+  
+  footer .media-icons a{
+	color: #fff;
+	font-size: 1.4em;
+	transition: 0.3s ease;
+	margin-right: 2em;
+}
+  
+  footer .media-icons a:hover{
+	transform: scale(1.3);
+	color: lightsalmon;
+}
+  
