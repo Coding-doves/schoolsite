@@ -106,7 +106,10 @@
         @media only screen and (max-width: 657px){
            
             .extra{
-                grid-gap: 11rem;
+                grid-gap: 15rem;
+            }
+            .whatsapp{
+                margin-left: 15px;
             }
             .nav{
                 display:flex;
@@ -156,7 +159,7 @@
                 display: grid;
                 grid-template-columns:1fr;
                 font-size: 14px;
-                text-align: left;
+                text-align: center;
                 padding-left: 10px;
             }
             .next img{
@@ -164,7 +167,7 @@
                 width: 100%;
             }
             .next h3{
-                text-align: left;
+                text-align: center;
             }
             .next2{
                 height: 700px;
