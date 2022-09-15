@@ -103,9 +103,10 @@
         }
         }
 
-        @media only screen and (max-width: 657px) and (min-width: 480px){
+        @media only screen and (max-width: 657px){
+           
             .extra{
-                grid-gap: 17rem;
+                grid-gap: 11rem;
             }
             .nav{
                 display:flex;
@@ -115,12 +116,11 @@
                 display: block;
         }
             #obi{
-            margin-left: 19rem;
+            margin-left: 13rem;
             }
             .logo{
                 display:flex;
             }
-            
             .lost{
                 display: none;
             }
@@ -134,13 +134,13 @@
                 height: 46rem;
             }
             .home .content{
-                padding-left: 80px;
+                padding-left: 20px;
             }
             .home .content h1{
                 font-size: 2em;
-                font-weight: 800;
+                font-weight: 500;
                 letter-spacing: 3px;
-                line-height: 65px;
+                line-height: 30px;
                 margin-bottom: 35px;
               }
               
@@ -154,16 +154,17 @@
             .next{
                 height: 100rem;
                 display: grid;
-                grid-template-columns:  1fr;
-                font-size: 15px;
+                grid-template-columns:1fr;
+                font-size: 14px;
+                text-align: left;
+                padding-left: 10px;
             }
             .next img{
                 height: 500px;
-                width: 500px;
+                width: 100%;
             }
-            .big{
-                width:240px;
-                height:240px;
+            .next h3{
+                text-align: left;
             }
             .next2{
                 height: 700px;
@@ -175,7 +176,7 @@
                 margin-top: 0;
             }
             #one img{
-                width: 97.8vw;
+                width: 90vw;
                 height: 400px;
             }
             #tree{
@@ -211,7 +212,7 @@
             }
             .foot{
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: 1fr;
             }
             .foot li{
                 font-size: 13px;
